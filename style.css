@@ -1,0 +1,35 @@
+@font-face {
+    font-family: MyFont; /* chosen name font*/ 
+    src:url(Straw\ Milky.otf); /*link of url of font file */ 
+  }
+  
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+   /* font-family:'Arial, sans-serif'; */ 
+    font-family: MyFont; /* prints out font on h1 */ 
+    background-image: url('MilkyWayImage.jpg');
+    color:#d6b983; /* use of hexadecimal colors */ 
+    align-items: center; 
+}
+
+p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    text-align: justifty; /* text align even */
+    padding: 20px; 
+}
+
+.top-right-button {
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    background-color: #d6b983; 
+    color: #edaa45; 
+    padding: 10px 15px; /* space between */
+    font-size: 14px;  
+    border-radius: 5px; 
+}

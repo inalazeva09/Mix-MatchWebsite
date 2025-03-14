@@ -27,9 +27,54 @@ p {
     position: absolute; 
     top: 20px;
     right: 20px;
-    background-color: #d6b983; 
-    color: #edaa45; 
+    background-color: #d6b983; /* use of hexadecimal colors */ 
+    color: #040404; 
     padding: 10px 15px; /* space between */
     font-size: 14px;  
     border-radius: 5px; 
+}
+
+.image-button { 
+    display: inline-block; 
+    background-color: #d6b983;
+    color: white; 
+    font-size: 16px; 
+    padding: 12px 18px; 
+    margin: 10px; 
+    border-radius:8px; 
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 0.3s; 
+}
+
+content {
+    display: none; 
+    margin-top: 100px; 
+}
+
+.content:target {
+    display: block; 
+}
+
+.content img {
+    text-align: center; 
+    width: 400%; 
+    max-width: 800px; 
+    height: auto; 
+}
+
+.gardening {
+    display: none; 
+    margin-top: 100px; 
+}
+
+.gardening:target {
+    display: block; 
+}
+
+.gardening img {
+    text-align: center; 
+    width: 400%; 
+    max-width: 800px; 
+    height: auto; 
 }
